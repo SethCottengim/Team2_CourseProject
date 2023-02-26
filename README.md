@@ -1,2 +1,1 @@
-# Team2_CourseProject
-Software Tools for Data Analysis - Course Project [Boston College]
+# Team_2Checkpoint_1.0
