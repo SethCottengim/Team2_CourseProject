@@ -1,4 +1,4 @@
-# Team 2 - Course Porject!
+# Team 2 - Course Project!
 
 
 ## Scope 🥇
