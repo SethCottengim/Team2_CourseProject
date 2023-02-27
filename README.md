@@ -56,7 +56,7 @@ cities, counties). This will result in 3 data sets. Pro Tips: If using Tableau, 
 ## Team 2 Mission 💪
 Are there pairwise patterns in total/per capita sales across geographies? Are there correlations between avg. sales per zipcode and avg. sales in corresponding city? Does the pattern differ across liquor categories?
 
-## Report Rubric
+## Report Rubric 🙃
   1. **Intro (5pts):** Provide context regarding your decision maker, organization, and overall decision climate. State your research question. Explain how policy decisions will affect your organization and the broader community.
   2. **Data Summary (5pts):** Provide a short description of the nature of the provided data set and explain how these characteristics affect your analysis methodology. Summarize the data set with basic descriptive statistics as applicable. 
   3. **Data Analytics (50pts):** Provide data analytics that add clarity to the research question. Thoroughly discuss insight obtained from your visualizations and analysis of aggregated, ACS and merged datasets, including trends or specific data points (Tasks 2-5). Suggest an excursion, and provide supporting analysis. Plots should be well formatted according to best practices learned in class. Discuss the advantages and challenges of performing analysis in your chosen software tool.
