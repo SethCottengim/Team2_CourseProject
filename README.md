@@ -15,8 +15,8 @@ All data files are located inside the **project.data.zip** archive
 | project.sales.cities   | Avg annual liqour sales per city    |
 | project.sales.counties | Avg annual liqour sales per county  |
 | project.acs.counties   | ACS data on Iowa counties           |
-| project.acs.cities     | ACS data on Iowa counties           |
-| project.acs.zipcodes   | ACS data on Iowa counties           |
+| project.acs.cities     | ACS data on Iowa cities             |
+| project.acs.zipcodes   | ACS data on Iowa zipcodes           |
 
 ### Variables [cities]
 | File | Variable | Description |
