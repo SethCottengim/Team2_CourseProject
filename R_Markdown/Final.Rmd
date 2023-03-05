@@ -1,6 +1,6 @@
 ---
 title: "Untitled"
-author: "Caroline Jenkins"
+author: "Seth Cottengim and Caroline Jenkins"
 date: "2023-03-05"
 output: word_document
 ---
@@ -447,4 +447,26 @@ ggplot(dat_g, aes(x=Sales_Dollars, y=city_sales)) +
 We can see from the plots they are all very similar and don't show a very strong correlation. There is a correlation, but it is not very high. 
 
 
+Performing analysis on liquor sales in Iowa across zip code, city, and county geographies in R and Tableau can provide valuable insights into sales patterns, consumer behavior, and market trends. However, both tools have their advantages and challenges in terms of data analysis.
+
+Advantages of R:
+R provides a wide range of statistical and data analysis tools, making it easy to process and analyze large datasets.
+R allows for advanced data visualization and graphical representation, making it easier to identify patterns and trends in the data.
+R is an open-source programming language, making it easy for us to share and collaborate on code and analysis.
+
+Challenges of R:
+R can be challenging to use for users without a programming background or experience with statistical analysis.
+R requires more time and effort to learn and set up compared to other data analysis tools.
+R is primarily used for statistical analysis and may not have as many features for data visualization as other tools like Tableau. We found it more difficult to represent visualizations in a customized manner in R, so we incorporated Tableau visulzations as well.
+
+Advantages of Tableau:
+Tableau provides an easy-to-use interface for data analysis and visualization, making it accessible to users without programming experience.
+Tableau has a wide range of pre-built visualizations and templates, making it easy to create professional-looking reports and dashboards.
+Tableau allows for interactive analysis, making it easier to explore the data and identify trends.
+Challenges of Tableau:
+Tableau can be limiting for advanced statistical analysis and modeling compared to R.
+Tableau may not be ideal for analyzing large datasets, as it may become slow to work with.
+In summary, R and Tableau both have their advantages and challenges for analyzing liquor sales in Iowa across zip code, city, and county geographies. R is ideal for advanced statistical analysis, while Tableau is useful for data visualization and analysis. A combination of both tools allowed us to perform our anlaysis and visualization for Iowa liquor sales data.
+
 ```
+
