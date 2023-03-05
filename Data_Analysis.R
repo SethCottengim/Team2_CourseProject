@@ -147,7 +147,7 @@ city_avg_sales <- aggregate(Sales_Dollars ~ city, data = city_data, mean)
 ########################################
 # Like a good data scientist... we go find more data :)
 # found this open source on GitHub vvvv
-zip_to_city <- read.csv('iowa_zip_lookup.csv')
+zip_to_city <- read.csv('zip_codes.csv')
 colnames(zip_to_city) <- c("zipcode", "city", "county")
 # Merge zip & city info to avg sales in cities by city column
 init_merge <- merge(zip_to_city, city_avg_sales, by="city", all=TRUE)
@@ -217,7 +217,7 @@ abline(h=0, col='green')
 # Histogram of total sales by category
 ggplot(sales_cities, aes(x=Category, y=Sales_Dollars)) + 
   geom_bar(stat="identity") +
-  labs(title="Total Sales in Citites by Liquor Category ",
+  labs(title="Total Sales in Cities by Liquor Category",
        x="Category",
        y="Total Sales")
 
@@ -429,4 +429,18 @@ ggplot(dat_g, aes(x=Sales_Dollars, y=city_sales)) +
 # We can see from the plots they are all very similar and don't show a very 
 # strong correlation. There is a correlation, but it is not very high. 
 
+
+##############################################################################
+# Data Export for Tableau b/c Tableau is crazy powerful and it's worth a shot
+##############################################################################
+
+# Note you will have to change the path the path to file in order to save this
+# file. Luckily we only need the file saved once so I will comment it out when
+# finished so the scrip will run without error. -SETH
+
+#write.csv(merged_data, file="~/Documents/GitHub/Data4Tableau/merged_data.csv")
+#write.csv(city_data, file="~/Documents/GitHub/Data4Tableau/city_data.csv")
+#write.csv(zipcode_data, file="~/Documents/GitHub/Data4Tableau/zipcode_data.csv")
+#write.csv(county_data, file="~/Documents/GitHub/Data4Tableau/county_data.csv")
+#write.csv(filtered_data, file="~/Documents/GitHub/Data4Tableau/filtered_data.csv")
 
